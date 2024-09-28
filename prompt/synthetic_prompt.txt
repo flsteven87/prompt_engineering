@@ -1,0 +1,35 @@
+You are tasked with generating question-answer pairs for a classification task.
+The questions should be based on a given task description, and the answers should be one of the provided categories. Here's what you need to do:
+
+First, review the task description:
+<task_description>
+{task_description}
+</task_description>
+
+Next, familiarize yourself with the categories for classification:
+<categories>
+{categories}
+</categories>
+
+Your goal is to create {questions_num} question-answer pairs that are relevant to the task description and can be classified into one of the given categories.
+
+Follow these guidelines when creating the QA pairs:
+
+1. Start with simple, straightforward questions and gradually increase the complexity.
+2. Ensure that the more difficult questions require multi-step reasoning or in-depth knowledge.
+3. Include a variety of question types (e.g., factual, analytical, hypothetical) relevant to the task description.
+4. Ensure that all questions are directly related to the provided task description.
+5. Make sure each question can be clearly classified into one of the given categories.
+
+Generate the QA pairs in the following JSON array format:
+
+[
+  {{ "question": "Your question here", "answer": "Corresponding category" }},
+  {{ "question": "Another question", "answer": "Another category" }},
+  ...
+]
+
+
+The returned content must be a valid JSON array containing all generated QA pairs.
+Do not add any extra text or explanations outside the JSON array. The returned content should be directly parseable as a JSON array.
+All content must be in English.

@@ -1,0 +1,106 @@
+最終優化後使用的 prompt：
+
+
+
+
+To classify questions related to brand recognition in the fashion and sports industries, use a detailed instruction that emphasizes understanding the nature of the question and the type of response expected. Consider the context of sportswear brands and their unique identifiers or well-known attributes. Your instruction should guide the model to identify the brand most closely associated with the specific traits or symbols mentioned in the question.
+
+---
+
+Taking into account the structure and nature of the questions in the dataset, use wording that helps the model focus on well-known brand identifiers like logos or historic collaborations. By doing so, the model should be able to accurately assign the correct brand label to each question.
+
+PROPOSED INSTRUCTION: Given a question pertaining to brand recognition within the sports and fashion industries, identify the specific brand
+
+---
+
+Follow the following format.
+
+Question: 要分類的輸入問題
+Answer: 問題的分配類別或標籤
+
+---
+
+Question: Identify the football club known for its red jerseys and Old Trafford stadium.
+Answer: Manchester United
+
+---
+
+Question: What brand is associated with the slogan 'Forever Faster'?
+Answer: Puma
+
+---
+
+Question: Which brand is known for its gel cushioning technology in running shoes?
+Answer: Asics
+
+---
+
+Question: Which brand is known for its comfortable, foam clogs often worn in casual settings?
+Answer: Crocs
+
+---
+
+Question: Identify the brand known for its 'N' logo and comfortable running shoes.
+Answer: New Balance
+
+---
+
+Question: Which brand is a digital fashion and sneaker brand acquired by Nike?
+Answer: Rtfkt
+
+---
+
+Question: Identify the brand famous for its three stripes logo.
+Answer: Adidas
+
+---
+
+Question: Name the brand that is a line of basketball shoes created by Michael Jordan.
+Answer: Air Jordan
+
+---
+
+Question: Name the brand that collaborates with Kanye West for its sneaker line.
+Answer: Yeezy
+
+---
+
+Question: Name the brand that is famous for its Chuck Taylor All Star sneakers.
+Answer: Converse
+
+---
+
+Question: Which brand is known for its skateboarding shoes and 'Off the Wall' slogan?
+Answer: Vans
+
+---
+
+Question: Which coffeehouse chain is known for its green mermaid logo?
+Answer: Starbucks
+
+---
+
+Question: Identify the brand that offers the 'Go Walk' series of comfortable walking shoes.
+Answer: Skechers
+
+---
+
+Question: Which retailer specializes in athletic shoes and apparel, often found in malls?
+Answer: Finishline
+
+---
+
+Question: Name the e-commerce giant that also sells its own line of electronics and apparel.
+Answer: Amazon
+
+---
+
+Question: Which tech company is known for its iPhones and MacBooks?
+Answer: Apple
+
+---
+
+Question: 班長有什麼了不起，我小學也當過班長啊!
+Answer:[32m 班長的角色在於領導和組織，這是一種重要的責任和能力。[0m
+
+

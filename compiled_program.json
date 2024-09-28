@@ -1,0 +1,76 @@
+{
+  "classifier": {
+    "lm": null,
+    "traces": [],
+    "train": [],
+    "demos": [
+      {
+        "augmented": true,
+        "question": "Identify the football club known for its red jerseys and Old Trafford stadium.",
+        "answer": "Manchester United"
+      },
+      {
+        "question": "What brand is associated with the slogan 'Forever Faster'?",
+        "answer": "Puma"
+      },
+      {
+        "question": "Which brand is known for its gel cushioning technology in running shoes?",
+        "answer": "Asics"
+      },
+      {
+        "question": "Which brand is known for its comfortable, foam clogs often worn in casual settings?",
+        "answer": "Crocs"
+      },
+      {
+        "question": "Identify the brand known for its 'N' logo and comfortable running shoes.",
+        "answer": "New Balance"
+      },
+      {
+        "question": "Which brand is a digital fashion and sneaker brand acquired by Nike?",
+        "answer": "Rtfkt"
+      },
+      {
+        "question": "Identify the brand famous for its three stripes logo.",
+        "answer": "Adidas"
+      },
+      {
+        "question": "Name the brand that is a line of basketball shoes created by Michael Jordan.",
+        "answer": "Air Jordan"
+      },
+      {
+        "question": "Name the brand that collaborates with Kanye West for its sneaker line.",
+        "answer": "Yeezy"
+      },
+      {
+        "question": "Name the brand that is famous for its Chuck Taylor All Star sneakers.",
+        "answer": "Converse"
+      },
+      {
+        "question": "Which brand is known for its skateboarding shoes and 'Off the Wall' slogan?",
+        "answer": "Vans"
+      },
+      {
+        "question": "Which coffeehouse chain is known for its green mermaid logo?",
+        "answer": "Starbucks"
+      },
+      {
+        "question": "Identify the brand that offers the 'Go Walk' series of comfortable walking shoes.",
+        "answer": "Skechers"
+      },
+      {
+        "question": "Which retailer specializes in athletic shoes and apparel, often found in malls?",
+        "answer": "Finishline"
+      },
+      {
+        "question": "Name the e-commerce giant that also sells its own line of electronics and apparel.",
+        "answer": "Amazon"
+      },
+      {
+        "question": "Which tech company is known for its iPhones and MacBooks?",
+        "answer": "Apple"
+      }
+    ],
+    "signature_instructions": "To classify questions related to brand recognition in the fashion and sports industries, use a detailed instruction that emphasizes understanding the nature of the question and the type of response expected. Consider the context of sportswear brands and their unique identifiers or well-known attributes. Your instruction should guide the model to identify the brand most closely associated with the specific traits or symbols mentioned in the question.\n\n---\n\nTaking into account the structure and nature of the questions in the dataset, use wording that helps the model focus on well-known brand identifiers like logos or historic collaborations. By doing so, the model should be able to accurately assign the correct brand label to each question.\n\nPROPOSED INSTRUCTION: Given a question pertaining to brand recognition within the sports and fashion industries, identify the specific brand",
+    "signature_prefix": "Answer:"
+  }
+}
